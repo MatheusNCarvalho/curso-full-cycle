@@ -14,3 +14,4 @@ globalConfig.json
 
 ### dump MYSQL ###
 modulo docker/compose/mysql/*
+modulo docker/desafios/desafio2/mysql/*
