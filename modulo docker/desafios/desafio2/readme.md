@@ -1,11 +1,11 @@
-Nesse desafio vocÍ colocar· em pr·tica o que aprendemos em relaÁ„o a utilizaÁ„o do nginx como proxy reverso. A idÈia principal È que quando um usu·rio acesse o nginx, o mesmo far· uma chamada em nossa aplicaÁ„o node.js. Essa aplicaÁ„o por sua vez adicionar· um registro em nosso banco de dados mysql, cadastrando um nome na tabela people.
+Nesse desafio voc√™ colocar√° em pr√°tica o que aprendemos em rela√ß√£o a utiliza√ß√£o do nginx como proxy reverso. A id√©ia principal √© que quando um usu√°rio acesse o nginx, o mesmo far√° uma chamada em nossa aplica√ß√£o node.js. Essa aplica√ß√£o por sua vez adicionar√° um registro em nosso banco de dados mysql, cadastrando um nome na tabela people.
 
-O retorno da aplicaÁ„o node.js para o nginx dever· ser:
+O retorno da aplica√ß√£o node.js para o nginx dever√° ser:
 
 <h1>Full Cycle Rocks!</h1>
 
 - Lista de nomes cadastrada no banco de dados.
 
-Gere o docker-compose de uma forma que basta apenas rodarmos: docker-compose up -d que tudo dever· estar funcionando e disponÌvel na porta: 8080.
+Gere o docker-compose de uma forma que basta apenas rodarmos: docker-compose up -d que tudo dever√° estar funcionando e dispon√≠vel na url: http://localhost.
 
-Suba tudo em um repositÛrio e faÁa a entrega.
+Suba tudo em um reposit√≥rio e fa√ßa a entrega.
