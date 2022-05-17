@@ -2,9 +2,12 @@ FROM node:16-alpine
 
 WORKDIR /usr/src/app
 
-COPY . .
+COPY package.json  /usr/src/app/
 
-RUN npm install
+RUN npm install -g npm && \
+    npm install
+
+COPY . /usr/src/app/
 
 ENV DOCKERIZE_VERSION v0.6.1
 RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSION/dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
